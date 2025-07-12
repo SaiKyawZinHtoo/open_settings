@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.example.open_settings'
     compileSdkVersion 29
 
     defaultConfig {
